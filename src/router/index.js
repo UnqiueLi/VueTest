@@ -163,6 +163,15 @@ export const asyncRouterMap = [
               title: '图标菜单',
               icon: 'table'
             }
+          },
+          {
+            path: 'manage',
+            component: _import('haomo/components/manage/index'),
+            name: 'haomo-manage',
+            meta: {
+              title: '角色管理',
+              icon: 'table'
+            }
           }
         ]
       },
